@@ -18,7 +18,6 @@ namespace A2.Maksim.Kulebiakin.Parser
 
             var cookieContainer = new CookieContainer();
 
-            postRequest.Proxy = new WebProxy("127.0.0.1:8888");
 
             postRequest.Data = "{\"query\":\"query SearchReportWoodDeal($size: Int!, $number: Int!, $filter: Filter, $orders: [Order!]) {\\n  searchReportWoodDeal(filter: $filter, pageable: {number: $number, size: $size}, orders: $orders) {\\n    content {\\n      sellerName\\n      sellerInn\\n      buyerName\\n      buyerInn\\n      woodVolumeBuyer\\n      woodVolumeSeller\\n      dealDate\\n      dealNumber\\n      __typename\\n    }\\n    __typename\\n  }\\n}\\n\",\"variables\":{\"size\":10000,\"number\":0},\"operationName\":\"SearchReportWoodDeal\"}";
 
