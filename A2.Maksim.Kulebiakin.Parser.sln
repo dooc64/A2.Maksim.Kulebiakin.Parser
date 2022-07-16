@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A2.Maksim.Kulebiakin.Parser", "A2.Maksim.Kulebiakin.Parser\A2.Maksim.Kulebiakin.Parser.csproj", "{161024CD-4012-4305-BC73-4711A2F64D1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "A2.Maksim.Kulebiakin.BLL", "A2.Maksim.Kulebiakin.BLL", "{45E8F21A-6B5F-43F8-8409-2C611E65627E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A2.Maksim.Kuelbiakin.BLL", "A2.Maksim.Kuelbiakin.BLL\A2.Maksim.Kuelbiakin.BLL.csproj", "{296F69EE-5396-4101-A58A-55C729C32032}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{161024CD-4012-4305-BC73-4711A2F64D1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{161024CD-4012-4305-BC73-4711A2F64D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{161024CD-4012-4305-BC73-4711A2F64D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{161024CD-4012-4305-BC73-4711A2F64D1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{296F69EE-5396-4101-A58A-55C729C32032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{296F69EE-5396-4101-A58A-55C729C32032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{296F69EE-5396-4101-A58A-55C729C32032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{296F69EE-5396-4101-A58A-55C729C32032}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{296F69EE-5396-4101-A58A-55C729C32032} = {45E8F21A-6B5F-43F8-8409-2C611E65627E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CC10E50-1AE5-4765-B7F1-DC2C0C291D38}
+	EndGlobalSection
+EndGlobal
